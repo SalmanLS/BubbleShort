@@ -46,6 +46,22 @@ namespace Bubble_Sort
         }
         public void BubbleSortArray()
         {
+            for(int i = 1; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (a[j] > a[j+1])
+                    {
+                        int temp;
+                        temp = a[j];
+                        a[j] = a[j+1];
+                        a[j+1] = temp;  
+                    }
+                }
+            }
+        }
+        static void Main(string[] args)
+        {
 
         }
     }
