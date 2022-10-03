@@ -62,7 +62,13 @@ namespace Bubble_Sort
         }
         static void Main(string[] args)
         {
+            Program mylist = new Program();
+            mylist.read();
+            mylist.BubbleSortArray();
+            mylist.display();
 
+            Console.WriteLine("\n\n Tekan tombol apa saja untuk keluar.");
+            Console.Read();
         }
     }
 }
