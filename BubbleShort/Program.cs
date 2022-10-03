@@ -20,6 +20,17 @@ namespace Bubble_Sort
                     Console.WriteLine("\n Array dapa mempunyai maksimal 20 elemen. \n)");
 
             }
+            Console.WriteLine("");
+            Console.WriteLine("---------------------");
+            Console.WriteLine("Masukkan elemen array");
+            Console.WriteLine("---------------------");
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<"+(i+1)+">");
+                string s1 = Console.ReadLine();
+                a[i] = Int32.Parse(s1);
+            }
         }
     }
 }
