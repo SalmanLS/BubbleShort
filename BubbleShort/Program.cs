@@ -42,6 +42,11 @@ namespace Bubble_Sort
             {
                 Console.WriteLine(a[j]);
             }
+            Console.WriteLine("");
+        }
+        public void BubbleSortArray()
+        {
+
         }
     }
 }
